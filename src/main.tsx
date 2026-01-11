@@ -8,6 +8,7 @@ import MyCard from './daisyui.tsx'
 import Navbar from './navbar.tsx'
 import OpenApp from './mystate.tsx'
 import HeroFunction from './Hero.tsx'
+import Counter from './myapp.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Navbar/>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')!).render(
     {/* <App /> */}
     {/* <Jason/>
     <OpenApp/> */}
+    <Counter/>
     <MyCard/>
     
     
