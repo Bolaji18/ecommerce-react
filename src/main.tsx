@@ -9,6 +9,10 @@ import Navbar from './navbar.tsx'
 import OpenApp from './mystate.tsx'
 import HeroFunction from './Hero.tsx'
 import Counter from './myapp.tsx'
+import Car from './propsand.tsx'
+// import LogicExpress from './logic.tsx'
+
+// condition ? true : false 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Navbar/>
@@ -17,7 +21,12 @@ createRoot(document.getElementById('root')!).render(
     {/* <Jason/>
     <OpenApp/> */}
     <Counter/>
+    {/* <LogicExpress/> */}
+    <Car brand='Ford' isGoal={true}/>
     <MyCard/>
+
+    
+    
     
     
  
