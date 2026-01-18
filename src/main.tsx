@@ -10,6 +10,7 @@ import OpenApp from './mystate.tsx'
 import HeroFunction from './Hero.tsx'
 import Counter from './myapp.tsx'
 import Car from './propsand.tsx'
+import FormApp from './forms.tsx'
 // import LogicExpress from './logic.tsx'
 
 // condition ? true : false 
@@ -23,8 +24,10 @@ createRoot(document.getElementById('root')!).render(
     <Counter/>
     {/* <LogicExpress/> */}
     <Car brand='Ford' isGoal={true}/>
-    <MyCard/>
+    <FormApp/>
 
+    <MyCard/>
+    
     
     
     
