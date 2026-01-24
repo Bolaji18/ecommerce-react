@@ -12,11 +12,13 @@ import Counter from './myapp.tsx'
 import Car from './propsand.tsx'
 import FormApp from './forms.tsx'
 // import LogicExpress from './logic.tsx'
+import Movies from './components/movies.tsx'
 
 // condition ? true : false 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Navbar/>
+    <Movies/>
     <HeroFunction/>
     {/* <App /> */}
     {/* <Jason/>
