@@ -13,22 +13,24 @@ import Car from './propsand.tsx'
 import FormApp from './forms.tsx'
 // import LogicExpress from './logic.tsx'
 import Movies from './components/movies.tsx'
+import Router1 from './Router.tsx'
 
 // condition ? true : false 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Navbar/>
-    <Movies/>
-    <HeroFunction/>
+    <Router1/>
+    {/* <Movies/> */}
+    {/* <HeroFunction/> */}
     {/* <App /> */}
     {/* <Jason/>
     <OpenApp/> */}
-    <Counter/>
+    {/* <Counter/> */}
     {/* <LogicExpress/> */}
-    <Car brand='Ford' isGoal={true}/>
-    <FormApp/>
+    {/* <Car brand='Ford' isGoal={true}/> */}
+    {/* <FormApp/> */}
 
-    <MyCard/>
+    {/* <MyCard/> */}
     
     
     
