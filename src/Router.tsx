@@ -3,6 +3,7 @@ import Movies from "./components/movies";
 import MyCard from "./daisyui";
 import FormApp from "./forms";
 import Counter from "./myapp";
+import PropsDestruct from "./components/propsdestruct";
 
 function Router1(){
     return(
@@ -12,6 +13,7 @@ function Router1(){
             <Link to="/shop">Shopping</Link>
             <Link to="/contact">Counter</Link>
             <Link to="/form">Form</Link>
+            <Link to="/props">Props Destructuring</Link>
 
          </nav>
 
@@ -20,6 +22,7 @@ function Router1(){
             <Route path="/shop" element={<MyCard/>}/>
             <Route path="/contact" element={<Counter/>}/>
             <Route path="/form" element={<FormApp/>}/>
+            <Route path="/props" element={<PropsDestruct/>}/>
          </Routes>
         </BrowserRouter>
     )
