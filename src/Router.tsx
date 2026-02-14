@@ -4,6 +4,7 @@ import MyCard from "./daisyui";
 import FormApp from "./forms";
 import Counter from "./myapp";
 import PropsDestruct from "./components/propsdestruct";
+import ReactEvents from "./events";
 
 function Router1(){
     return(
@@ -14,6 +15,8 @@ function Router1(){
             <Link to="/contact">Counter</Link>
             <Link to="/form">Form</Link>
             <Link to="/props">Props Destructuring</Link>
+            <Link to="/events">Events</Link>
+
 
          </nav>
 
@@ -23,6 +26,7 @@ function Router1(){
             <Route path="/contact" element={<Counter/>}/>
             <Route path="/form" element={<FormApp/>}/>
             <Route path="/props" element={<PropsDestruct/>}/>
+            <Route path="/events" element={<ReactEvents/>}/>
          </Routes>
         </BrowserRouter>
     )

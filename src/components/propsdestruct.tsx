@@ -6,7 +6,7 @@ function Car(props:any){
     )
 }
 
-function Cars2({color, brand, ...rest}: {color: string, brand: string, [key: string]: any}){
+export function Cars2({color, brand, ...rest}: {color: string, brand: string, [key: string]: any}){
     return(
         <h2> My {brand} is {rest.model} and it is {color}</h2>
     )
